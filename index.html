@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Behavior Causal Chain Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <h1>Human Behavior Causal Chain Graph</h1>
+    <pre class="mermaid">
+    graph TD
+    A[Genetic Blueprints]
+    B[Neuroanatomy]
+    C[Neurotransmitters and Hormones]
+    D[The Endocrine System]
+    E[Neural Circuits]
+    F[Neuroplasticity]
+    G[The Unconscious Mind]
+    H[Cognitive Biases]
+    I[Personality]
+    J[Motivation]
+    K[Learning and Memory]
+    L[Perception]
+    M[The Neurobiology of Emotions]
+    N[Basic Emotions]
+    O[Complex Emotions]
+    P[Emotional Intelligence]
+    Q[The Development of Self]
+    R[Self-Perception and Self-Esteem]
+    S[Belief Systems and Worldviews]
+    T[The Role of Language in Shaping Thought]
+    U[Social Cognition]
+    V[Group Dynamics and Conformity]
+    W[Cultural Influences on Behavior]
+    X[The Impact of Technology on Social Behavior]
+    Y[Rational vs. Emotional Decision-Making]
+    Z[Heuristics and Mental Shortcuts]
+    AA[Risk Assessment and Management]
+    AB[Moral Decision-Making and Ethics]
+    AC[How Behavior Shapes Biology]
+    AD[The Interplay Between Thoughts, Emotions, and Actions]
+    AE[Habits: Formation and Change]
+    AF[Stress and Its Impact on Decision-Making]
+    AG[Inner Dialogue and Narratives]
+    AH[Mindfulness]
+    AI[Exercise and Physical Health]
+    AJ[Other Healthy Habits]
+
+    A --> B
+    A --> C
+    B --> E
+    C --> D
+    C --> E
+    D --> E
+    E --> F
+    E --> G
+    F --> G
+    G --> H
+    G --> I
+    H --> Y
+    I --> J
+    I --> R
+    J --> K
+    J --> L
+    K --> L
+    L --> U
+    E --> M
+    M --> N
+    N --> O
+    O --> P
+    P --> AD
+    Q --> R
+    R --> S
+    S --> T
+    T --> U
+    U --> V
+    V --> W
+    W --> X
+    X --> AE
+    Y --> Z
+    Y --> AA
+    Z --> AA
+    AA --> AB
+    AB --> AC
+    AD --> AE
+    AE --> AF
+    AF --> AC
+    AC --> F
+    
+    G --> AG
+    AG --> R
+    AG --> S
+    AG --> AD
+    AH --> AG
+    AH --> AD
+    AH --> AF
+    AI --> F
+    AI --> M
+    AI --> AF
+    AJ --> AE
+    AJ --> AF
+    AJ --> AC
+
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,color:black;
+
+    </pre>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>
